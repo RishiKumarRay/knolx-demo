@@ -1,5 +1,6 @@
 ## Building and running locally
 Once you clone the project to your local system, you can build and test locally by running here:
+running this file
 
 `mvn clean test` - for unit testing
 
