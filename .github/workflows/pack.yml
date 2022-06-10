@@ -3,7 +3,7 @@ name: Maven Package
 on:
   workflow_run:
     workflows: ["Maven CI"]
-    types: [requested]
+    types: [completed]
 
 jobs:
   build:
