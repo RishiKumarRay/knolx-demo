@@ -1,10 +1,9 @@
-name: Maven CI
+name: Maven Package
 
 on:
-  push:
-    branches: [ development ]
-  pull_request:
-    branches: [ development ]
+  workflow_run:
+    workflows: ["Maven CI"]
+    types: [requested]
 
 jobs:
   build:
